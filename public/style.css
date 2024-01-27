@@ -1,0 +1,106 @@
+body {
+  background: #DAC0A3;
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #161616;
+  padding: 0 45px;
+}
+
+.header h1 {
+  color: #D3E298;
+  margin: 0;
+}
+
+h4 {
+  text-transform: uppercase;
+  color: white;
+  font-weight: 200;
+}
+
+.sign {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.btn {
+  padding: 8px 15px;
+  text-transform: uppercase;
+  margin-left: 10px;
+}
+
+.sign .join {
+  background: #CE8147;
+  border: none;
+  border-radius: 2px;
+  color: white;
+  font-weight: 200;
+}
+
+.sign .sign-in {
+  background: none;
+  color: white;
+  border: none;
+  border: 1px solid #ccc;
+  border-radius: 2px;
+}
+
+.comedy-movies {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: space-around;
+}
+
+.comedy-list img {
+  width: 220px;
+}
+
+h2 {
+  font-weight: 500;
+  color: #065143;
+  margin-left: 13px;
+}
+
+.comedy-list h3 {
+  font-weight: 400;
+  font-size: 16px;
+  margin: 10px 0;
+  color: #102C57;
+}
+
+.comedy-list p {
+  font-weight: 200;
+  font-size: 12px;
+  margin: 8px 0;
+  color: #102C57;
+}
+
+.fav {
+  background: #F6F740;
+  padding: 4px 8px;
+  text-transform: uppercase;
+  font-style: italic;
+  font-weight: 500;
+  border-radius: 4px;
+}
+
+h5 {
+  text-align: center;
+  background: #161616;
+  color: #D3E298;
+  margin: 32px 0 0 0;
+  padding: 20px;
+}
+
+.description {
+  font-size: 26px;
+  margin-left: 13px;
+}
